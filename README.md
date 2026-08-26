@@ -7,7 +7,7 @@
 
 [![R-CMD-check](https://github.com/wilkelab/ggtext/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/wilkelab/ggtext/actions/workflows/R-CMD-check.yaml)
 [![Coverage
-Status](https://img.shields.io/codecov/c/github/wilkelab/ggtext/master.svg)](https://codecov.io/github/wilkelab/ggtext?branch=master)
+Status](https://img.shields.io/codecov/c/github/wilkelab/ggtext/master.svg)](https://app.codecov.io/github/wilkelab/ggtext?branch=master)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/ggtext)](https://cran.r-project.org/package=ggtext)
 [![Lifecycle:
@@ -67,6 +67,8 @@ post.](https://stackoverflow.com/questions/39282293/r-ggplot2-using-italics-and-
 
 ``` r
 library(tidyverse)
+#> Warning: package 'ggplot2' was built under R version 4.5.2
+#> Warning: package 'purrr' was built under R version 4.5.2
 library(ggtext)
 library(glue)
 
@@ -98,11 +100,11 @@ example, to employ images as axis labels.
 
 ``` r
 labels <- c(
-  setosa = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Iris_setosa.JPG/180px-Iris_setosa.JPG'
+  setosa = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kosaciec_szczecinkowaty_Iris_setosa.jpg/250px-Kosaciec_szczecinkowaty_Iris_setosa.jpg'
     width='100' /><br>*I. setosa*",
-  virginica = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Iris_virginica_-_NRCS.jpg/320px-Iris_virginica_-_NRCS.jpg'
+  virginica = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Iris_virginica.jpg/330px-Iris_virginica.jpg'
   width='100' /><br>*I. virginica*",
-  versicolor = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/20140427Iris_%C3%97_germanica1.jpg/320px-20140427Iris_%C3%97_germanica1.jpg'
+  versicolor = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Iris_versicolor_3.jpg/330px-Iris_versicolor_3.jpg'
   width='100' /><br>*I. versicolor*"
 )
 
@@ -287,7 +289,7 @@ ggplot(df) +
 ## Acknowledgments
 
 This project received [financial
-support](https://www.r-consortium.org/all-projects/awarded-projects)
-from the [R consortium.](https://www.r-consortium.org)
+support](https://r-consortium.org/all-projects/awarded-projects) from
+the [R consortium.](https://r-consortium.org/)
 
-<img src="https://www.r-consortium.org/wp-content/uploads/sites/13/2016/09/RConsortium_Horizontal_Pantone.png" width="250">
+<img src="https://r-consortium.org/images/RConsortium_Horizontal_Pantone.webp" width="250">
