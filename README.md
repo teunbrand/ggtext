@@ -289,7 +289,7 @@ ggplot(df) +
 ## Acknowledgments
 
 This project received [financial
-support](https://r-consortium.org/all-projects/awarded-projects) from
-the [R consortium.](https://r-consortium.org/)
+support](https://r-consortium.org/all-projects/funded-projects.html)
+from the [R consortium.](https://r-consortium.org/)
 
 <img src="https://r-consortium.org/images/RConsortium_Horizontal_Pantone.webp" width="250">
